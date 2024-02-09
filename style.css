@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #304b63;
+}
+.container{
+    height: 30.6rem;
+    width: 23rem;
+    background-color: #253849;
+    box-shadow: 0 0 0.3rem grey;
+    padding-top: 0.7rem;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.input-box{
+    margin-bottom: 1rem;
+}
+#input{
+    border: none;
+    height: 3.2rem;
+    width: 19rem;
+    font-size: xx-large;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.clear{
+    margin-right: 0.6rem;
+    color: white;
+    background-color: #ff1919
+}
+
+button{
+    width: 9rem;
+    margin-top: 1rem;
+    height: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    border: none;
+    border-radius: 1rem;
+    background: #f29f24;
+    color: white;
+    cursor: pointer;
+}
+#today-date{
+    height: 3.5rem;
+    background: white;
+    width: 19rem;
+    margin: auto;
+    border-radius: 0.5rem;
+    color: black;
+    font-size: x-large;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.text{
+    text-align: left;
+    /* margin: 2rem; */
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    margin-bottom: 0.6rem 
+}
+.msg{
+    display: flex;
+    justify-content: space-around;
+    width: 19rem;
+    background: #398689;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3.5rem;
+    border-radius: 1rem;
+    align-items: center;
+    
+}
+.year, .month, .day{
+    font-weight: bold;
+}
+
