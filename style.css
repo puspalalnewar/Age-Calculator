@@ -6,16 +6,20 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+    background-color: #304b63;
+}
+.main{
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #304b63;
 }
 .container{
     height: 30.6rem;
     width: 23rem;
-    background-color: #253849;
-    box-shadow: 0 0 0.3rem grey;
+    /* background-color: #253849; */
+    background-color: #304b63;
+    box-shadow: 0 0 01.3rem grey;
     padding-top: 0.7rem;
     color: white;
     text-align: center;
@@ -72,7 +76,6 @@ button{
 }
 .text{
     text-align: left;
-    /* margin: 2rem; */
     margin-left: 2rem;
     font-size: 1.3rem;
     margin-bottom: 0.6rem 
@@ -93,3 +96,13 @@ button{
     font-weight: bold;
 }
 
+footer{
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #304b63;
+    font-size: large;
+    font-weight: bold;
+}
