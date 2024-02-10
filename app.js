@@ -76,9 +76,6 @@ function getDaysInMonth(year, month) {
     return new Date(year, month, 0).getDate();
 }
 
-const clear = ()=> {
-    input.valueAsDate = null;
-}
 document.querySelector(".clear").addEventListener("click", ()=>{
     input.value = "";
     year.innerHTML = `Year : 0`;
