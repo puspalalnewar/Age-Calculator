@@ -22,6 +22,10 @@ if(tDay < 10 && tMonth < 10){
 }
 
 const calculateAge = () => {
+
+    if(input.value == ""){
+        return;
+    }
     let userDate = new Date(input.value);
 
     let bDay = userDate.getDate();
@@ -66,17 +70,20 @@ const calculateAge = () => {
         day.innerHTML = `Day : ${dd}`;
     }
     
-
-    console.log(dy, dm, dd);
 }
 
 function getDaysInMonth(year, month) {
     return new Date(year, month, 0).getDate();
 }
 
-const clear = () => {
-    input.value = "";
+const clear = ()=> {
+    input.valueAsDate = null;
 }
-
+document.querySelector(".clear").addEventListener("click", ()=>{
+    input.value = "";
+    year.innerHTML = `Year : 0`;
+    month.innerHTML = `Month : 0`;
+    day.innerHTML = `Day : 0`;
+});
 
 
